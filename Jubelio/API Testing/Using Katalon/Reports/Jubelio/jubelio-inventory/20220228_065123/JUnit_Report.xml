@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jubelio-inventory" time="7.595" tests="1" failures="0" errors="0">
+   <testsuite name="jubelio-inventory" tests="1" failures="0" errors="0" time="7.595" skipped="0" timestamp="2022-02-28 06:51:32" hostname="aldir - LAPTOP-RKKJ1FFP" id="Test Suites/Jubelio/jubelio-inventory">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aldir\\Katalon Studio\\My First Mobile Project\\Reports\\20220228_065123\\Jubelio\\jubelio-inventory\\20220228_065123"/>
+         <property name="logFiles" value="C:\\Users\\aldir\\Katalon Studio\\My First Mobile Project\\Reports\\20220228_065123\\Jubelio\\jubelio-inventory\\20220228_065123\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aldir - LAPTOP-RKKJ1FFP"/>
+         <property name="hostAddress" value="192.168.100.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Jubelio/jubelio-inventory" time="6.882" classname="Test Cases/Jubelio/jubelio-inventory" status="PASSED">
+         <system-out><![CDATA[2022-02-28 06:51:32 - [TEST_CASE][PASSED] - Test Cases/Jubelio/jubelio-inventory: Test Cases/Jubelio/jubelio-inventory
+
+2022-02-28 06:51:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Jubelio/jubelio-inventory", ["page":"1", "pageSize":"1"])): Send request successfully
+
+2022-02-28 06:51:34 - [MESSAGE][INFO] - HAR: C:\Users\aldir\Katalon Studio\My First Mobile Project\Reports\20220228_065123\Jubelio\jubelio-inventory\20220228_065123\requests\main\0.har
+
+2022-02-28 06:51:34 - [MESSAGE][PASSED] - Send request successfully
+
+2022-02-28 06:51:34 - [TEST_STEP][PASSED] - result = response.getResponseBodyContent(): null
+
+2022-02-28 06:51:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-02-28 06:51:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-02-28 06:51:34 - [TEST_STEP][PASSED] - out.println(result): null
+
+2022-02-28 06:51:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-28 06:51:39 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-28 06:51:32 - [TEST_SUITE][PASSED] - jubelio-inventory: Test Cases/Jubelio/jubelio-inventory]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+jubelio-inventory,,,,2022-02-28 06:51:32,2022-02-28 06:51:39,7.111s,PASSED
+,,,,,,,
+Test Cases/Jubelio/jubelio-inventory,,Hit API Get Inventory,,2022-02-28 06:51:32,2022-02-28 06:51:39,6.882s,PASSED
+"response = sendRequest(findTestObject(""Jubelio/jubelio-inventory"", [""page"":""1"", ""pageSize"":""1""]))",,"Hit API getJubelioInventory
+",,2022-02-28 06:51:32,2022-02-28 06:51:34,1.476s,PASSED
+result = response.getResponseBodyContent(),,,,2022-02-28 06:51:34,2022-02-28 06:51:34,0.010s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-02-28 06:51:34,2022-02-28 06:51:34,0.012s,PASSED
+out.println(result),,,,2022-02-28 06:51:34,2022-02-28 06:51:34,0.014s,PASSED
+delay(5),,,,2022-02-28 06:51:34,2022-02-28 06:51:39,5.025s,PASSED
